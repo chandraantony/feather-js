@@ -2,6 +2,20 @@
 
 > 
 
+## Setting Database
+
+Getting up and running is as easy as 1, 2, 3.
+
+1. Go to ./config then edit default.json :
+
+    ```
+    {
+     "postgres": "postgres://postgres:@localhost:5432/dev_api"
+    }
+    ```
+2. to your connection local postgres and set your own datbases name
+3. auto migrating table when app start
+
 ## About
 
 This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
