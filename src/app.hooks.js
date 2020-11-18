@@ -1,5 +1,4 @@
 // Application hooks that run for every service
-
 module.exports = {
   before: {
     all: [],
